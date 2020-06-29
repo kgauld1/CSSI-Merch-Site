@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>CSSI 2020 Student Merch</title>
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+</head>
+
+<body class="mdc-typography">
+    <header class="mdc-top-app-bar" style="background-color: white; width: 90%;">
+        <div class="mdc-top-app-bar__row">
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
+                <button class="mdc-icon-button material-icons" style="color:grey">shopping_cart</button>
+            </section>
+        </div>
+    </header>
+
+
+    <div class="mdc-layout-grid" style="width: 70%;">
+        <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell--span-12">
+                <h4 class="mdc-typography--headline4" style="text-align: center; color:#353839">Welcome!</h4>
+            </div>
+        </div>
+        <div class="mdc-layout-grid__inner" id="products">
+            <div class="mdc-layout-grid__cell--span-3">
+                <div class="mdc-card">
+                    <div class="mdc-card__primary-action" tabindex="0">
+                        <img style='width: 100%;' src="testimg.png" alt="test img" />
+                    </div>
+                    <div class="mdc-card__actions">
+                        <div class="mdc-card__action-icons">
+                            <button class="material-icons mdc-icon-button mdc-card__action mdc-card__action--icon"
+                                title="More Details">add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
